@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!--NavBar, Active Home-->
+    <div class="row">
+      <div class="navbar">
+        <div class="col-lg-8">
+          <div class="col-lg-6">
+            <div class="logo">
+              Tornament Planer
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="menu">
+              <ul>
+                <li><a class="act" href="./Home.html">Home</a></li>
+                <li>
+                  <a href="Tournaments.html">
+                    <div class="dropdown">
+                      Tournaments
+                      <div class="dropdown-content">
+                        <a href="./CreateT.html">Create Tournament</a>
+                        <a href="./MyTournament.html">My Tournaments</a>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="account">
+            <ul>
+              <li> <a href="./Login.html">Login</a> </li>
+              <li> <a href="./Register.html">Register</a> </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!--Description..what else ??-->
+      <div class="row">
+        <div class="col-lg-2">
+        </div>
+        <div class="col-lg-9">
+          <h1>Welcome to the Tournament Planer</h1>
+          <h2>Here are the Tournaments for today:</h2>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-2">
+
+        </div>
+        <div class="col-lg-6">
+          <div class="tbl-click">
+            <table>
+              <thead>
+                  <td>Name</td>
+                  <td>Date</td>
+                  <td>Time</td>
+                  <td>Location</td>
+              </thead>
+              <tbody>
+                <tr class="now" onclick="location.href='./TournamentR.html'">
+                  <td>Cup1</td>
+                  <td>12.12.2017</td>
+                  <td>NOW</td>
+                  <td>Hannover</td>
+                </tr>
+                <tr onclick="location.href='./Tournament.html'">
+                  <td>Cup2</td>
+                  <td>12.12.2017</td>
+                  <td>19:00</td>
+                  <td>Grand Rapids</td>
+                </tr>
+                <tr onclick="location.href='./Tournament.html'">
+                  <td>Cup3</td>
+                  <td>12.12.2017</td>
+                  <td>15:00</td>
+                  <td>Berlin</td>
+                </tr>
+                <tr onclick="location.href='./Tournament.html'">
+                  <td>Cup4</td>
+                  <td>12.12.2017</td>
+                  <td>11:00</td>
+                  <td>Chicago</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-lg-4">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

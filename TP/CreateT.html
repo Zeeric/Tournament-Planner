@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Create</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!--Nav, Act Tourn-->
+    <div class="row">
+      <div class="navbar">
+        <div class="col-lg-8">
+          <div class="col-lg-6">
+            <div class="logo">
+              Tornament Planer
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="menu">
+              <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li>
+                  <a class="act" href="Tournaments.html">
+                    <div class="dropdown">
+                      Tournaments
+                      <div class="dropdown-content">
+                        <a href="./CreateT.html">Create Tournament</a>
+                        <a href="./MyTournament.html">My Tournaments</a>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="account">
+            <ul>
+              <li> <a href="./Login.html">Login</a> </li>
+              <li> <a href="./Register.html">Register</a> </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!--Form-->
+      <div class="row">
+        <div class="col-lg-5">
+        </div>
+        <div class="col-lg-2">
+          <div class="fillin">
+            <form id="createT">
+              Name <br>
+              <input type="text" placeholder="" /> <br> Date <br />
+              <input type="date" is="date" placeholder="" /> <br> Teams <br />
+              <input type="number" placeholder="" /> <br> Size <br />
+              <input type="number" placeholder="" /> <br> Referees <br/>
+              <input type="text" placeholder="" /> <br>
+              <button>Save</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-5">
+        </div>
+
+      </div>
+    </div>
+</body>
+
+</html>
